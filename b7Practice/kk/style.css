@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    }
+    html,body{
+     width: 100%;
+     height: 100%;
+    }
+    body{
+        display: flex;
+        
+
+        /* overflow: hidden; */
+    }
+    #back{
+      width: 100%;
+      height: 100%;
+      background-color: #f2709c;
+    }
+    nav{
+        margin-left: 100px;
+        margin-top: 30px;
+        width:86%;
+        height: 11%;
+        background-color: white;
+        padding: 11px 22px;
+    }
+    #content{
+        display: flex;
+        margin-left: 100px;
+        width:86%;
+        height: 100%;
+        background-color:black;
+       
+    }
+    #photo{
+        display: flex;   
+    }
+    .pic{
+        width: 30%;
+        height: 28%;
+        background-color: black;
+    }
+    #pic1{
+        margin-left: 280px; 
+        background-image: url(hotel-1.jpg); 
+       background-size:cover;
+       margin-top: 0;
+    } 
+    #pic2{
+        background-image: url(hotel-2.jpg); 
+       background-size:cover;
+       margin-top: 0;
+    }
+    #pic3{ 
+        background-image: url(hotel-3.jpg); 
+       background-size:cover;
+       margin-top: 0;
+    } 
+  

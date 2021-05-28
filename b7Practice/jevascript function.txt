@@ -1,0 +1,16 @@
+// es5-3
+// function statement
+   function a(){
+       // function statement
+   } 
+   let a = function(){
+       // function expression
+   }
+// function expression 
+// anonymous function - call back 
+
+//es 6
+// function expression 
+   // basic fat arrow
+   // without braces fat arrow
+   // function with explicit 

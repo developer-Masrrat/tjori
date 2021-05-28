@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+} 
+body{
+    background-color: black;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;   align-items: center;
+    width: 100%;
+    height: 145px;
+    background-color:white;
+    padding: 0 45px;
+}
+
+img{
+    margin-left: 60px;
+}
+
+#content h1{
+    color: white;
+    font-family: "Open Sans", open-sans, sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    margin-left: 99px;
+    height: 63px;
+    margin-top: 40px;
+}
+#shows{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 350px;
+    /*background-color: red;*/
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.show{
+    width: 33%;
+    height: 350px;
+    /*background-color: green;*/
+    
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background: linear-gradient(To bottom, transparent,black);
+}
+#one{
+    background-image:url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04133345/CartoonNetwork_Ben10_462x386.jpg);
+    
+}
+#two{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200714/CartoonNetwork_OKKO_462x386.jpg);
+}
+#three{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200734/CartoonNetwork_StevenUniverse_462x386.jpg);
+    } 
+#smallshows{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 350px;
+   /* background-color: red;*/
+    padding-left: 98px;
+    padding-right: 98px;
+
+}
+.smallshow{
+    width: 24.65%;
+    height:350px;
+     background-color: green;
+}
+
+#foursm{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04142757/CartoonNetwork_WeBareBears_462x3861.jpg);
+
+}
+#fivesm{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200805/CartoonNetwork_ThePowerPuffGirls_462x386.jpg);
+
+}
+#sixsm{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200826/CartoonNetwork_TheRegularShow_462x386.jpg);
+
+}
+#sevensm{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200850/CartoonNetwork_AdventureTime_462x386.jpg);
+    background-size: cover;
+}

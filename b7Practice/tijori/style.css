@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+#left{
+   width: 45%;
+   height: 100%;
+   padding: 11px 48px;
+   background-color:#131313;
+}
+/* #left #landingPageContent {
+   padding: 11px 48px;
+   /* background-color: red; 
+   margin-top:40px; 
+} */
+
+#left #landingPageContent h1{
+    font-family: 'Playfair Display ';
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    margin-top:220px; 
+    line-height: 60px;
+
+}
+
+#left #landingPageContent p{
+  font-weight: 200;
+  font-size: 11px;
+  color: white;
+  margin-top: 15px;
+  /* background-color: black; */
+  width: 80%;
+  height: 40px; 
+
+
+}
+
+#left #landingPageContent button{
+  padding: 11px 22px;
+  margin-top: 14px; 
+  /* background-color:red; */
+  background-color: transparent;
+  border: 1px solid #D19720;
+  color: #D19720;
+
+}
+
+#right{
+width: 55%;
+height: 100%;
+/* background-color: brown; */
+
+}
+ 
+#right img{
+    position: absolute;
+    width: 52%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+} 
+
+#sidelinks{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 6%;
+    height: 100%;
+    background-color: rgb(172, 172, 172);
+    right: 0%;
+}
+
+/* #sidelinks img{
+    position: absolute;
+    width: 18px;
+    height: 22px;
+    background-color: chartreuse; 
+    margin-right: 3px; 
+    margin-top: 11px;
+
+} */
+
+#sidelinksdiv h4{
+ color:#D19720;
+ bottom:3%;
+ font-size: 13px;
+}

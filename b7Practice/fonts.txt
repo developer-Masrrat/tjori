@@ -1,0 +1,19 @@
+SAN SERIFS
+
+
+1.montserrat 
+2.lato
+3.open sans 
+4.roboto
+5.raleway 
+6.source sans pro 
+7.ubuntu
+
+
+SERIFS 
+
+1. Literata
+2. Play fair Display
+3. Lora
+4. Slabo 27px
+5. noto serif
